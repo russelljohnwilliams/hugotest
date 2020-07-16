@@ -1,6 +1,6 @@
 ---
-label: New Page
-hide_body: true
+label: page template
+hide_body: false
 fields:
 - name: text_box_thing
   type: textarea
