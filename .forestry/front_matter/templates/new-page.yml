@@ -1,4 +1,14 @@
 ---
 label: New Page
 hide_body: true
-fields: []
+fields:
+- name: text_box_thing
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Box Thing
+  description: description goes here
