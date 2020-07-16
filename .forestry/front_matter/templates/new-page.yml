@@ -12,13 +12,27 @@ fields:
       format: markdown
   label: Text Box Thing
   description: description goes here
-- name: block
-  type: blocks
-  label: block
-  template_types: []
+- name: front_page_image
+  type: file
   config:
-    min: 
-    max: 
-  description: block is here
+    maxSize: 64
+  label: Front page image
+  description: This is the first image you will see on your site
+- name: pick_a_color
+  type: color
+  label: Pick a color
+  config:
+    required: false
+    color_format: Hex
+- name: blurb
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Blurb
+  description: write some shit
 pages:
 - content/Page.md
