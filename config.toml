@@ -1,0 +1,4 @@
+baseURL = "http://electriceskimo.co.uk/"
+languageCode = "en-us"
+title = "Electric Eskimo"
+theme = "blank"
