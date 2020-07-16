@@ -5,3 +5,5 @@ draft: true
 
 ---
 This is my post, yallz
+
+![](/uploads/img_1068-edit-2.jpg)
