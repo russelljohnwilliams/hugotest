@@ -20,3 +20,5 @@ fields:
     min: 
     max: 
   description: block is here
+pages:
+- content/Page.md
