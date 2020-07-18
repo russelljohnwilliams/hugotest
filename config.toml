@@ -1,4 +1,21 @@
 baseURL = "http://electriceskimo.co.uk/"
 languageCode = "en-us"
 title = "Electric Eskimo"
-theme = "blank"
+-theme = "blank"
++theme = "hugo-creative-portfolio-theme"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/page/"
+    weight = -110
+
+  [[menu.main]]
+    name = "home"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "//"
+    weight = -100
