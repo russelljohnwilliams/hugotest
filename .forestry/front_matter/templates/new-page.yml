@@ -36,3 +36,4 @@ fields:
   description: write some shit
 pages:
 - content/Page.md
+- content/page new.md
