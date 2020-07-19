@@ -20,7 +20,7 @@ theme = "blank"
     weight = -100
 
   [[menu.main]]
-    name = "home"
+    name = "posts"
     post = "<span class='alert'>Posts</span>"
     pre = "<i class='fa fa-road'></i>"
     url = "/posts/"
