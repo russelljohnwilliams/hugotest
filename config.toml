@@ -1,7 +1,7 @@
 baseURL = "http://electriceskimo.co.uk/"
 languageCode = "en-us"
 title = "Electric Eskimo"
-theme = "hugo-creative-portfolio-theme"
+theme = "blank"
 
 [menu]
 
